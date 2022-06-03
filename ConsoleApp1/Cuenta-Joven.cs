@@ -38,7 +38,11 @@ namespace ConsoleApp1
             }
 
         }
-       
+        
+        /// <summary>
+        /// Muestra si el titular es Valido
+        /// </summary>
+        /// <returns></returns>
         public bool EsTitularValido()
         {
             if (base.titular.edad >= 18 && base.titular.edad < 25)

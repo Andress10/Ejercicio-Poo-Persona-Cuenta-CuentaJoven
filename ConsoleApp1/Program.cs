@@ -26,7 +26,7 @@ namespace ConsoleApp1
 
             cuentaTitular.Ingresar(40000);
             cuentaTitular.Mostrar();
-            cuentaTitular.Retirar(60000);
+            cuentaTitular.Retirar(72000);
             cuentaTitular.Mostrar();
             Console.WriteLine();
 

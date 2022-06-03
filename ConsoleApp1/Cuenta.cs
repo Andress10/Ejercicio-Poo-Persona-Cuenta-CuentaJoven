@@ -23,7 +23,9 @@ namespace ConsoleApp1
             this.titular = titular;
         }
 
-        //----Metodos---//
+        /// <summary>
+        /// Muestra Datos de la persona
+        /// </summary>
         public virtual void Mostrar()
         {
             if (this.dinero >= 0)
@@ -45,6 +47,11 @@ namespace ConsoleApp1
 
         }
 
+        /// <summary>
+        /// Metodo para ingresar dinero
+        /// </summary>
+        /// <param name="contadorDinero"></param>
+        /// <returns></returns>
         public double Ingresar(double contadorDinero)
         {
             if (contadorDinero > 0)
@@ -53,6 +60,12 @@ namespace ConsoleApp1
             }
             return this.dinero;
         }
+
+        /// <summary>
+        ///Metodo para retirar dinero 
+        /// </summary>
+        /// <param name="retirarDinero"></param>
+        /// <returns></returns>
         public virtual double Retirar(double retirarDinero)
         {
             if (retirarDinero > 0)
